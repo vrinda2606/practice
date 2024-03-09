@@ -1,20 +1,15 @@
-import React , {createContext} from "react";
-
-const FirstName = createContext();
-
+import React from "react";
 const Practice = () => {
     return (<>
-          <FirstName.Provider value={"Vrinda"}>
-            
-          </FirstName.Provider>
+
     </>);
 }
 
 export default Practice;
 
-
 /*
 For applying dynamic time to website
+
 import React, { useState } from "react";
 
 const Practice = () => {
@@ -31,4 +26,25 @@ const Practice = () => {
 
 export default Practice;
 
+*/
+
+
+/*
+
+For Context API
+
+import React , {createContext} from "react";
+import ComA from './ComA';
+const FirstName = createContext();
+
+const Practice = () => {
+    return (<>
+          <FirstName.Provider value={"Vrinda"}>
+            <ComA />
+          </FirstName.Provider>
+    </>);
+}
+
+export default Practice;
+export  {FirstName};
 */
