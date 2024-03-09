@@ -1,13 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 const Practice = () => {
-    return (<>
 
+    const [num,setNum] = useState(0);
+
+    useEffect( () => {
+        document.title=`You clicked ${num} times` ;
+    },[num]);
+
+    return (<>
+       <button onClick={() => {setNum(num+1);}}> hey {num} </button>
     </>);
 }
 
 export default Practice;
 
+/*
+useEffect
+import React, { useEffect, useState } from "react";
+const Practice = () => {
 
+    const [num,setNum] = useState(0);
+
+    useEffect( () => {
+        document.title=`You clicked ${num} times` ;
+    },[num]);
+
+    return (<>
+       <button onClick={() => {setNum(num+1);}}> hey {num} </button>
+    </>);
+}
+
+export default Practice;
+*/
 
 /*
 For applying dynamic time to website
@@ -29,7 +53,6 @@ const Practice = () => {
 export default Practice;
 
 */
-
 
 /*
 
