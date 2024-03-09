@@ -1,14 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 const Practice = () => {
-
-    const [num,setNum] = useState(0);
-
-    useEffect( () => {
-        document.title=`You clicked ${num} times` ;
-    },[num]);
-
     return (<>
-       <button onClick={() => {setNum(num+1);}}> hey {num} </button>
+       
     </>);
 }
 
