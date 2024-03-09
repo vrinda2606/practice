@@ -7,6 +7,8 @@ const Practice = () => {
 
 export default Practice;
 
+
+
 /*
 For applying dynamic time to website
 
