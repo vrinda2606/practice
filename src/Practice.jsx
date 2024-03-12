@@ -1,8 +1,18 @@
 import React from "react";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';              //npm i bootstrap@5.3.3
+                                                                            //https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+
 const Practice = () => {
-    return (<>
-       
-    </>);
+    return (
+    <>
+    <div className="container">
+       <h1 className="text-center">Welcome</h1>
+       <br />
+       <button className="btn btn-outline-primary">Hello</button>
+    </div>
+    </>
+    );
 }
 
 export default Practice;
