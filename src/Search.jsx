@@ -3,7 +3,7 @@ import SearchResult from './SearchResult';
 
 const Search = () => {
 
-  const [img,setImg] = useState();
+  const [img,setImg] = useState("");
   const inputEvent = (e) => {
     const data = e.target.value;
     setImg(data);
