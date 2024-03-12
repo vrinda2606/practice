@@ -6,6 +6,23 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';              //np
 const Practice = () => {
     return (
     <>
+    <h1>Hello</h1>
+    </>
+    );
+}
+
+export default Practice;
+
+/*
+Use of bootstrap
+import React from "react";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';              //npm i bootstrap@5.3.3
+                                                                            //https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+
+const Practice = () => {
+    return (
+    <>
     <div className="container">
        <h1 className="text-center">Welcome</h1>
        <br />
@@ -16,6 +33,7 @@ const Practice = () => {
 }
 
 export default Practice;
+*/
 
 /*
 useEffect
